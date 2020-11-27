@@ -3,18 +3,12 @@ import {Header} from "./components/Header/Header";
 import {Routes} from "./components/Routes/Routes";
 import _ from 'lodash';
 import {api} from "./components/api/api";
-import ErrorBoundary from "./components/ErrorBoundary/ErrorBoundary";
 
 
 class App extends React.Component {
 
     state = {
-        data: [
-            {id: 1, firstName: 'Артем', lastName: 'Ребров', department: 'Junior'},
-            {id: 2, firstName: 'Максим', lastName: 'Петров', department: 'Junior'},
-            {id: 3, firstName: 'Сергей', lastName: 'Шестаков', department: 'Middle'},
-            {id: 4, firstName: 'Андрей', lastName: 'Воронцов', department: 'Senior'}
-        ],
+        data: [],
         sort: '',
         sortField: 'firstName',
         isLoading: true
@@ -96,13 +90,11 @@ class App extends React.Component {
 
     render() {
         return (
-            <ErrorBoundary>
                 <div className="App">
                     <Header/>
                     <Routes data={this.state.data} isLoading={this.state.isLoading} onSort={this.onSort}
                             sort={this.state.sort} sortField={this.state.sortField} addNewWorker={this.addNewWorker}/>
                 </div>
-            </ErrorBoundary>
         );
     }
 }
