@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/testbenovate/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/testbenovate/static/js/main.4e0b7a49.chunk.js",
+    "main.js.map": "/testbenovate/static/js/main.4e0b7a49.chunk.js.map",
+    "runtime-main.js": "/testbenovate/static/js/runtime-main.4ce88654.js",
+    "runtime-main.js.map": "/testbenovate/static/js/runtime-main.4ce88654.js.map",
+    "static/js/2.065a306c.chunk.js": "/testbenovate/static/js/2.065a306c.chunk.js",
+    "static/js/2.065a306c.chunk.js.map": "/testbenovate/static/js/2.065a306c.chunk.js.map",
+    "static/js/3.43039ece.chunk.js": "/testbenovate/static/js/3.43039ece.chunk.js",
+    "static/js/3.43039ece.chunk.js.map": "/testbenovate/static/js/3.43039ece.chunk.js.map",
+    "index.html": "/testbenovate/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/testbenovate/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.065a306c.chunk.js.LICENSE.txt": "/testbenovate/static/js/2.065a306c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ce88654.js",
+    "static/js/2.065a306c.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.4e0b7a49.chunk.js"
+  ]
+}
